@@ -7,10 +7,14 @@ def population_growth_model(t, y, r, K):
     return
 
 def set_initial_conditions():
+feature-Harris
     r = 0.1  # Growth rate
     K = 100  # Carrying capacity
     y0 = 10  # Initial population size
     t_span = (0, 100)  # Time range (start, end)
+=======
+    # TODO: Implement function to set and return initial conditions
+  
     pass
 
 def set_parameters():
